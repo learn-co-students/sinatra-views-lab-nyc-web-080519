@@ -1,0 +1,8 @@
+<h1>Today</h1>
+
+<% weekday = Time.now.strftime("%A")%>
+<% month = Time.now.strftime("%B")%>
+<% date =  Time.now.strftime("%d")%>
+<% year =  Time.now.strftime("%Y")%>
+
+<p><%="The date is #{weekday}, #{month} #{date}, #{year}"%></p> 
